@@ -1,0 +1,10 @@
+﻿services:
+  proximity-api:
+    build: .
+    container_name: proximity-search-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data:ro
+      - ./link.txt:/app/link.txt:ro
+    restart: unless-stopped

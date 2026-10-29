@@ -1,0 +1,9 @@
+```text
+.venv
+venv
+__pycache__
+*.py[cod]
+.git
+.env
+locations (1).csv.crdownload
+```
